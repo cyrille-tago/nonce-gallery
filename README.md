@@ -15,10 +15,12 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 
 ## Installation
 
-1. Clone this repo and `cd` into it.
-2. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update
-   `composer update` just in  case.
-3. Run `bin/cake server`.
+1. Install the requirements for your system: `php`, `sqlite`.
+2. Install and activate php extensions: `mbstring`, `intl` and `pdo_sqlite`.
+3. Download [Composer](http://getcomposer.org/doc/00-intro.md).
+4. Clone this repo and `cd` into it.
+5. Update `composer update` in the repo to get missing files.
+6. Run `bin/cake server`.
 
 You should now be able to visit the [home page](http://localhost:8765/).
 
