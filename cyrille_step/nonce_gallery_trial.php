@@ -8,9 +8,9 @@
 //$root = '';
 
 // Comment out the following statement if the path is not specified from the root.
-$root = $_SERVER['DOCUMENT_ROOT'];
+//$root = $_SERVER['DOCUMENT_ROOT'];
 
-$path = 'images/';
+$path = './images/';
 
 //We now move to the main code 
 //---------------------------------------------------------------//
@@ -71,7 +71,9 @@ a img { border:none; }
 <p><p>Load the page several times and get completely different experience of the world of ART. This will be more random when we have a larger number og images in the directory. </p></p>
 
 <!-- random images are inserted here -->
-<div><img src="/var/www/html/images/art.jpg" alt="" /></div>
+<!-- <div><img src="/var/www/html/images/art.jpg" alt="" /></div> -->
+<div><img src="<?php echo $path . $img ?>" alt="" /></div>
+
 
 
 <p>&nbsp;</p>
