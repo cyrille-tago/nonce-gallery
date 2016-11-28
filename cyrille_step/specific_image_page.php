@@ -76,7 +76,7 @@ a img { border:none; }
 <center>
 <h2>Displays Random Art Images</h2>
 </center>
-<p><p>Load the page several times and get completely different experience of the world of ART. This will be more random when we have a larger number og images in the directory. </p></p>
+<p><p>We want to display the infoormation concerning the art work here... </p></p>
 
 <!-- random images are inserted here -->
 <!-- <div><img src="<?php echo $path . $img ?>" alt="" /></div> -->
